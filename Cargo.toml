@@ -1,6 +1,6 @@
 [package]
 name = "panicshutdown"
-version = "0.2.0"
+version = "0.2.1"
 description = "a minimal utility for an almost instant safe-ish shutdown"
 repository = "https://github.com/quixaq/panicshutdown"
 license = "GPL-3.0-or-later"
