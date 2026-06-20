@@ -1,6 +1,6 @@
 [package]
 name = "panicshutdown"
-version = "0.1.0"
+version = "0.2.0"
 description = "a minimal utility for an almost instant safe-ish shutdown"
 repository = "https://github.com/quixaq/panicshutdown"
 license = "GPL-3.0-or-later"
@@ -10,7 +10,7 @@ readme = "README.md"
 edition = "2024"
 
 [dependencies]
-nix = { version = "0.31.3", features = [ "user" ] }
+nix = { version = "0.31.3", features = [ "user", "fs", "mount", "reboot" ] }
 
 [profile.release]
 opt-level = 3
