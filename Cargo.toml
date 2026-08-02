@@ -2,7 +2,7 @@
 name = "panicshutdown"
 version = "0.2.2"
 description = "a minimal utility for an almost instant safe-ish shutdown"
-repository = "https://github.com/quixaq/panicshutdown"
+repository = "https://codeberg.org/quixaq/panicshutdown"
 license = "GPL-3.0-or-later"
 keywords = ["cli", "sysrq", "linux", "proc", "shutdown"]
 categories = ["command-line-utilities"]
